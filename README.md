@@ -1,4 +1,15 @@
-### Hi there 👋
+## 言語
+
+- TypeScript
+- React, preact
+- Node.js, express
+- PHP
+
+## 作ったもの
+
+- kyonenya.github.io: pure TypeScript
+- manuscripts-frontend: preact, TypeScript
+- manuscripts-backend: Node.js, express
 
 <!--
 **kyonenya/kyonenya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
