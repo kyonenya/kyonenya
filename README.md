@@ -24,7 +24,7 @@
 - ↑のバックエンドAPIサーバー。記事のCRUDとデータベースとのやり取り。
 - 使用技術：Node.js, express, postgres, Heroku, Clean Architecture, 関数型プログラミング
 
-### 4 [manuscript](https://github.com/kyonenya/manuscript)
+### [manuscript](https://github.com/kyonenya/manuscript)
 
 - ##2, ##3の後継アプリ。Next.jsのAPI Routesを用いて、フロントエンドとバックエンドをまとめて一つのアプリとして開発中。
 - 使用技術：Next.js, Isomorphic JavaScript (Universal JavaScript), Chakra UI, Supabase (postgres, Auth)
