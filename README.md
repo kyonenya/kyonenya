@@ -1,30 +1,28 @@
 # kyonenya
 
-## 言語
+## 技術
 
+- Next.js, React（フロントエンド）
+- Node.js（バックエンド）
 - TypeScript
-- React, preact
-- Node.js, express
-- PHP
 
 ## 作ったもの
 
-### 1 [kyonenya.github.io](https://github.com/kyonenya/kyonenya.github.io)
+### 1. [kyonenya.github.io](https://github.com/kyonenya/kyonenya.github.io)
 
-- メインで運用しているブログサイト。ノーフレームワーク、Vanilla JavaScript（TypeScript）で書いたサーバーレスCMS。
-- 使用技術：Vanilla JS, TypeScript, webpack, PostCSS, eslint, prettier, stylelint
+- メインで運用しているブログサイト
+- ノーフレームワーク、ブラウザ標準のAPIだけで作成したSPA（シングルページアプリケーション）
+- 使用技術：Vanilla JS, TypeScript, Web Components
 
-### 2 [manuscripts-frontend](https://github.com/kyonenya/manuscripts-frontend)
+### 2. [manuscript](https://github.com/kyonenya/manuscript)
 
-- 自分が書き溜めている研究草稿の管理用Webアプリ。マークダウンエディタで記事を作成・編集する。
-- 使用技術：preact, TypeScript, styled-components, vercel
+- 自分が書き溜めている研究草稿を管理するためのWebアプリ。日記アプリ [Day One](https://dayoneapp.com) からのJSONインポートや記事の一括印刷に対応
+- Next.js の [API Routes](https://nextjs-ja-translation-docs.vercel.app/docs/api-routes/introduction) と tRPC を用いて、フロントエンドとバックエンドをまとめて一つのアプリとして開発中
+  - Next@13.4 に合わせて React Server Components と Server Actions に移行中
+- 使用技術：Next.js, tRPC, Tanstack Query, Prisma, PostgreSQL, ~~Chakra UI~~→Tailwind CSS, Vercel, Supabase Auth, Isomorphic JavaScript (Universal JavaScript)
 
-### 3 [manuscripts-backend](https://github.com/kyonenya/manuscripts-backend)
+### 3. [npm - search summary](https://www.npmjs.com/package/search-summary)
 
-- ↑のバックエンドAPIサーバー。記事のCRUDとデータベースとのやり取り。
-- 使用技術：Node.js, express, postgres, Heroku, Clean Architecture, 関数型プログラミング
-
-### 4 [manuscript](https://github.com/kyonenya/manuscript)
-
-- 2, 3の後継アプリ。Next.jsのAPI Routesを用いて、フロントエンドとバックエンドをまとめて一つのアプリとして開発中。
-- 使用技術：Next.js, Isomorphic JavaScript (Universal JavaScript), Chakra UI, Supabase (postgres, Auth)
+- テキスト検索の結果文字列を生成するutil関数をnpmパッケージとして切り出して公開しておいた
+  - 上二つのアプリで使用中
+- 使用技術：TypeScript, 関数型プログラミング
