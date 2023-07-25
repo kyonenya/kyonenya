@@ -24,8 +24,9 @@
 
 ### 3. [next-langchain-pdf](https://github.com/kyonenya/next-langchain-pdf/)
 
-- PDFを読み込んだ ChatGPT が質問に答えてくれるアプリ
-  - PDF文書の中から質問に関連しそうな箇所を類似度検索をかけて抽出。質問文と合わせてプロンプトとして送信し、応答をリアルタイムで表示する
+PDFを読み込んだ ChatGPT が質問に答えてくれるアプリ
+
+- PDF文書の中から質問に関連しそうな箇所を類似度検索をかけて抽出。質問文と合わせてプロンプトとして送信し、応答をリアルタイムで表示する
 - 使用技術：Langchain.js, OpenAI API (chatgpt-3.5-turbo-16k), Vercel AI SDK, Next.js
 
 ### 4. [npm - search summary](https://www.npmjs.com/package/search-summary)
